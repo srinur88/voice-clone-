@@ -1,0 +1,114 @@
+/* General page styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  header {
+    background-color: #4a90e2;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  header nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Dark Mode Toggle Button */
+  header nav button {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Inputs, buttons, selects */
+  textarea,
+  input[type="text"],
+  select,
+  button {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #357abd;
+  }
+  
+  /* Video & Audio players */
+  video,
+  audio {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Dark mode styling */
+  .dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+  }
+  
+  .dark-mode header {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-mode textarea,
+  .dark-mode input,
+  .dark-mode select {
+    background-color: #1f1f1f;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  .dark-mode button {
+    background-color: #333;
+    color: #eee;
+  }
+  
+  .dark-mode button:hover {
+    background-color: #444;
+  }
+  
